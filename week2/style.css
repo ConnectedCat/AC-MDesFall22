@@ -51,6 +51,13 @@ nav li a {
     }
 }
 
+@media (min-width: 900px){
+    nav ul {
+        flex-direction: row-reverse;
+    }
+
+}
+
 /* Main section styles */
 h1, h3 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
